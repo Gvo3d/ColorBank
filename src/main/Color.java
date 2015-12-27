@@ -6,5 +6,18 @@ package main;
 public abstract class Color {
     int colornumber;
     String colorName;
-    int uasge_rate;
+    float usageRate;
+    int priceFor1Liter;
+
+    public String getName(){
+        return colorName;
+    }
+
+    public float getUsageRate() {
+        return usageRate;
+    }
+
+    public int getPrice(){
+        return priceFor1Liter;
+    }
 }
